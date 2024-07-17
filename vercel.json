@@ -2,7 +2,7 @@
     "version": 2,
     "builds":[
         {
-            "src":"DPP/app.py",
+            "src":"DPP1/app.py",
             "use":"@vercel/python",
             "config":{"runtime":"python:3.11.2"}
 
@@ -11,7 +11,7 @@
     "routes":[
         {
             "src":"/(.*)",
-            "dest":"DPP/app.py"
+            "dest":"DPP1/app.py"
         }
     ]
 }
