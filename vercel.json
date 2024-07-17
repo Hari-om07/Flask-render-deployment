@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds":[
+        {
+            "src":"DPP/app.py",
+            "use":"@vercel/python"
+
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"DPP/app.py"
+        }
+    ]
+}
