@@ -3,4 +3,5 @@ werkzeug
 gunicorn
 joblib
 numpy
+sklearn
 
